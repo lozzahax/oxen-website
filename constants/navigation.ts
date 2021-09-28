@@ -24,12 +24,12 @@ const SIDE_MENU_ITEMS = {
   },
   [SideMenuItem.WHO_ARE_WE]: {
     id: 1,
-    label: 'What is Oxen?',
+    label: 'What is Lozzax?',
     href: '/who-are-we',
   },
   [SideMenuItem.BUY_OXEN]: {
     id: 2,
-    label: 'Why buy $OXEN?',
+    label: 'Why buy $LOZZAX?',
     href: '/buy-oxen',
   },
   [SideMenuItem.STAKE]: {
@@ -39,7 +39,7 @@ const SIDE_MENU_ITEMS = {
   },
   [SideMenuItem.USES]: {
     id: 4,
-    label: 'Who uses Oxen?',
+    label: 'Who uses Lozzax?',
     href: '/uses',
   },
   [SideMenuItem.BUILD]: {
@@ -59,7 +59,7 @@ const SIDE_MENU_ITEMS = {
   },
   [SideMenuItem.ROADMAP]: {
     id: 8,
-    label: "Oxen's 2021 roadmap",
+    label: "Lozzax's 2021 roadmap",
     href: '/roadmap',
     hasOwnRoute: true,
   },
@@ -95,14 +95,14 @@ const MENU_ITEMS: IMenuItem[] = [
   },
   {
     label: 'Docs',
-    href: 'https://docs.oxen.io',
+    href: 'https://docs.lozzax.xyz',
     newTab: true,
     subtle: false,
     external: true,
   },
   {
     label: 'CoinGecko',
-    href: 'https://www.coingecko.com/en/coins/oxen',
+    href: 'https://www.coingecko.com/en/coins/lozzax',
     newTab: true,
     subtle: false,
     external: true,
@@ -110,14 +110,14 @@ const MENU_ITEMS: IMenuItem[] = [
   },
   {
     label: 'Explorer',
-    href: 'https://oxen.observer/',
+    href: 'https://explorer.lozzax.xyz/',
     newTab: true,
     subtle: true,
     external: true,
   },
   {
     label: 'Downloads',
-    href: 'https://docs.oxen.io/downloads',
+    href: 'https://docs.lozzax.xyz/downloads',
     newTab: true,
     subtle: true,
     external: true,

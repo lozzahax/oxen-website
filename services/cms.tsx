@@ -390,15 +390,15 @@ export const renderShortcode = (shortcode: string) => {
       <div className="flex justify-center mt-6 mb-4 space-x-4">
         <RedditSVG
           className="h-8 cursor-pointer"
-          onClick={() => open('https://www.reddit.com/r/oxen_io', '_blank')}
+          onClick={() => open('https://www.reddit.com/r/lozzax', '_blank')}
         />
         <TelegramSVG
           className="h-8 cursor-pointer"
-          onClick={() => open('https://t.me/Oxen_Community', '_blank')}
+          onClick={() => open('https://t.me/Lozzax_Community', '_blank')}
         />
         <DiscordSVG
           className="h-8 cursor-pointer"
-          onClick={() => open('https://discord.com/invite/67GXfD6', '_blank')}
+          onClick={() => open('https://discord.gg/BssSsnEnvs', '_blank')}
         />
       </div>
     );
@@ -413,7 +413,7 @@ export const renderShortcode = (shortcode: string) => {
           <Button
             wide
             prefix={<KucoinSVG className="h-4" />}
-            onClick={() => open('https://trade.kucoin.com/LOKI-USDT', '_blank')}
+            onClick={() => open('https://trade.kucoin.com/LZX-USDT', '_blank')}
             type="ghost"
           >
             Kucoin
@@ -423,7 +423,7 @@ export const renderShortcode = (shortcode: string) => {
             prefix={<BittrexSVG className="h-4" />}
             onClick={() =>
               open(
-                'https://global.bittrex.com/Market/Index?MarketName=USDT-OXEN',
+                'https://global.bittrex.com/Market/Index?MarketName=USDT-LZX',
                 '_blank',
               )
             }
@@ -444,7 +444,7 @@ export const renderShortcode = (shortcode: string) => {
         <div className="flex flex-wrap justify-center mt-6 mb-4 space-x-4">
           <Button
             onClick={() =>
-              open('https://github.com/oxen-io/oxen-core', '_blank')
+              open('https://github.com/lozzax/lozzax', '_blank')
             }
             type="ghost"
           >
@@ -452,7 +452,7 @@ export const renderShortcode = (shortcode: string) => {
           </Button>
           <Button
             onClick={() =>
-              open('https://github.com/oxen-io/loki-network', '_blank')
+              open('https://github.com/lozzax/lozzax-network', '_blank')
             }
             type="ghost"
           >
@@ -464,7 +464,7 @@ export const renderShortcode = (shortcode: string) => {
           <Button
             className="mb-4"
             onClick={() =>
-              open('https://github.com/oxen-io/session-android', '_blank')
+              open('https://github.com/lozzax/session-android', '_blank')
             }
             type="ghost"
           >
@@ -473,7 +473,7 @@ export const renderShortcode = (shortcode: string) => {
           <Button
             className="mb-4"
             onClick={() =>
-              open('https://github.com/oxen-io/session-ios', '_blank')
+              open('https://github.com/lozzax/session-ios', '_blank')
             }
             type="ghost"
           >
@@ -482,7 +482,7 @@ export const renderShortcode = (shortcode: string) => {
           <Button
             className="mb-4"
             onClick={() =>
-              open('https://github.com/oxen-io/session-desktop', '_blank')
+              open('https://github.com/lozzax/session-desktop', '_blank')
             }
             type="ghost"
           >
@@ -498,7 +498,7 @@ export const renderShortcode = (shortcode: string) => {
     return (
       <div className="flex justify-center mt-6 mb-4 space-x-4">
         <Button
-          onClick={() => open('https://getsession.org', '_blank')}
+          onClick={() => open('https://getsession.lozzax.xyz', '_blank')}
           type="ghost"
         >
           Get Session
@@ -506,7 +506,7 @@ export const renderShortcode = (shortcode: string) => {
         <Button
           onClick={() =>
             open(
-              'https://docs.oxen.io/using-the-oxen-blockchain/overview',
+              'https://docs.lozzax.xyz/using-the-lozzax-blockchain/overview',
               '_blank',
             )
           }
@@ -523,13 +523,13 @@ export const renderShortcode = (shortcode: string) => {
     return (
       <div className="flex justify-center mt-6 mb-4 space-x-4">
         <Button
-          onClick={() => open('https://getsession.org', '_blank')}
+          onClick={() => open('https://getsession.lozzax.xyz', '_blank')}
           type="ghost"
         >
           Get Session
         </Button>
         <Button
-          onClick={() => open('https://lokinet.org', '_blank')}
+          onClick={() => open('https://lokinet.lozzax.xyz', '_blank')}
           type="ghost"
         >
           Use Lokinet

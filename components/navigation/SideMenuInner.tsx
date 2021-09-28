@@ -99,7 +99,7 @@ export function SideMenuInner() {
               </a>
             </Link>
             <a
-              href="https://coinmarketcap.com/currencies/oxen/"
+              href="https://coinmarketcap.com/currencies/lozzax/"
               target="_blank"
               rel="nofollow"
               className="flex items-center space-x-1 hover:underline hover:text-secondary"
@@ -110,7 +110,7 @@ export function SideMenuInner() {
               <span>CMC</span>
             </a>
             <a
-              href="https://www.coingecko.com/en/coins/oxen"
+              href="https://www.coingecko.com/en/coins/lozzax"
               target="_blank"
               rel="nofollow"
               className="flex items-center space-x-1 hover:underline hover:text-secondary"
@@ -145,37 +145,37 @@ const SocialsRow = () => {
         isTablet ? 'justify-start space-x-5 px-6' : 'justify-between',
       )}
     >
-      <a href="https://t.me/Oxen_Community" target="_blank" rel="noreferrer">
+      <a href="https://t.me/Lozzax_Community" target="_blank" rel="noreferrer">
         <TelegramSVG className="h-10 placeholder-current duration-300 border rounded-full cursor-pointer fill-current stroke-current hover:bg-primary hover:text-secondary border-primary" />
       </a>
-      <a href="https://twitter.com/Oxen_io" target="_blank" rel="noreferrer">
+      <a href="https://twitter.com/Lozzax_io" target="_blank" rel="noreferrer">
         <TwitterSVG className="h-10 placeholder-current duration-300 border rounded-full cursor-pointer fill-current stroke-current hover:bg-primary hover:text-secondary border-primary" />
       </a>
-      <a href="https://github.com/oxen-io" target="_blank" rel="noreferrer">
+      <a href="https://github.com/lozzax" target="_blank" rel="noreferrer">
         <GithubSVG className="h-10 placeholder-current duration-300 border rounded-full cursor-pointer fill-current stroke-current hover:bg-primary hover:text-secondary border-primary" />
       </a>
       {/* <a
-        href="https://discord.com/invite/67GXfD6"
+        href="https://discord.gg/BssSsnEnvs"
         target="_blank"
         rel="noreferrer"
       >
         <DiscordSVG className="h-10 placeholder-current duration-300 border rounded-full cursor-pointer fill-current stroke-current hover:bg-primary hover:text-secondary border-primary" />
       </a> */}
       <a
-        href="https://www.youtube.com/channel/UCN7LL0dEffQ7FSjbY5wwlnw"
+        href="https://www.youtube.com/channel/lozzax"
         target="_blank"
         rel="noreferrer"
       >
         <YouTubeSVG className="h-10 placeholder-current duration-300 border rounded-full cursor-pointer fill-current stroke-current hover:bg-primary hover:text-secondary border-primary" />
       </a>
       <a
-        href="https://www.reddit.com/r/oxen_io/"
+        href="https://www.reddit.com/r/lozzax/"
         target="_blank"
         rel="noreferrer"
       >
         <RedditSVG className="h-10 placeholder-current duration-300 border rounded-full cursor-pointer fill-current stroke-current hover:bg-primary hover:text-secondary border-primary" />
       </a>
-      <a href="https://sessiongroups.com/" target="_blank" rel="noreferrer">
+      <a href="https://sessiongroups.lozzax.xyz/" target="_blank" rel="noreferrer">
         <SessionSVG className="h-10 placeholder-current duration-300 border rounded-full cursor-pointer fill-current stroke-current hover:bg-primary hover:text-secondary border-primary" />
       </a>
       <Link href="/feed">

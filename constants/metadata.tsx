@@ -25,11 +25,11 @@ export function generateURL(prefix: string) {
 }
 
 const METADATA = {
-  HOST_URL: 'https://oxen.io',
+  HOST_URL: 'https://lozzax.xyz',
   SITE_NAME: 'Oxen',
   TITLE: 'Oxen | Privacy made simple.',
   DESCRIPTION:
-    'Oxen is built by the OPTF, a passionate team of advocates, creatives, and engineers building a world where the internet is open, software is free and accessible, and your privacy is protected. The OPTF also builds other platforms using Oxen technology, and supports other developers in building on Oxen.',
+    'Lozzax is a complete fork of Oxen which is built by the OPTF, a passionate team of advocates, creatives, and engineers building a world where the internet is open, software is free and accessible, and your privacy is protected. The OPTF also builds other platforms using Oxen technology, and supports other developers in building on Oxen. The love for the work of Oxen team made us to fork it and we intend to stay with Oxen development',
   TAGS: [
     'Privacy',
     'decentralisation',
@@ -40,6 +40,9 @@ const METADATA = {
     'Cryptocurrency',
     'Digital finance',
     'Privacy Tools',
+	'Oxen',
+	'Monero',
+	'Lozzax',
   ],
   OG_TYPE: 'website',
   OG_IMAGE: {
@@ -63,14 +66,14 @@ const METADATA = {
   },
   BLOG_PAGE: {
     TYPE: 'article',
-    DESCRIPTION: "View Oxen's Blog Updates Here",
+    DESCRIPTION: "View Lozzax's Blog Updates Here",
   },
   TAG_PAGE: {
     TYPE: 'article',
-    DESCRIPTION: "View Oxen's Blog Updates Sorted By Tag Here",
+    DESCRIPTION: "View Lozzax's Blog Updates Sorted By Tag Here",
   },
   ROADMAP_PAGE: {
-    DESCRIPTION: "View Oxen's plan for the future here.",
+    DESCRIPTION: "View Lozzax's plan for the future here.",
   },
   FAQ_PAGE: {
     DESCRIPTION: 'View Some Frequently Asked Questions here',

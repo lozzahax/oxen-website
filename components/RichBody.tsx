@@ -48,8 +48,8 @@ export function RichBody(props: Props): ReactElement {
     renderNode: {
       [INLINES.HYPERLINK]: (node, children) => {
         const url =
-          node.data.uri.indexOf('://oxen.io') >= 0
-            ? node.data.uri.split('://oxen.io')[1]
+          node.data.uri.indexOf('://lozzax.xyz') >= 0
+            ? node.data.uri.split('://lozzax.xyz')[1]
             : node.data.uri;
         return (
           <Link href={url} scroll={!isLocal(node.data.uri)}>
